@@ -38,7 +38,7 @@
       if(!text) return alert("Enter text");
       document.getElementById("result").innerText = "Processing...";
 
-      // 你换成自己的LLM接口即可
+      // sk-cc18e25955844ddba913aee0311185c1
       const res = await fetch("https://你的转发接口", {
         method:"POST",
         headers:{"Content-Type":"application/json"},
